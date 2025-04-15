@@ -36,6 +36,12 @@ These findings have several implications for urban policy:
 
 ## Interactive Maps
 
-While not displayed directly on this page, the project includes code for generating interactive maps of predicted gentrification risk. These visualizations can be created by running the provided notebooks with your own data.
+<div class="map-info">
+  <p>View our interactive <a href="maps/gentrification_risk_map.html" target="_blank">Gentrification Risk Map</a> to explore the spatial distribution of predicted neighborhood change.</p>
+  
+  <p>This visualization allows you to explore areas with different levels of gentrification risk based on our model predictions.</p>
+</div>
+
+You can also create similar visualizations by running the provided notebooks with your own data.
 
 [Return to Home](index.html)

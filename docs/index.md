@@ -15,6 +15,7 @@ The research uses machine learning techniques to analyze and predict gentrificat
 
 - [Methodology](methodology.html) - Learn about our data sources and machine learning approach
 - [Results and Findings](results.html) - Explore the key findings from our analysis
+- [Interactive Map](maps/gentrification_risk_map.html) - View our gentrification risk visualization
 
 ## Repository Contents
 
