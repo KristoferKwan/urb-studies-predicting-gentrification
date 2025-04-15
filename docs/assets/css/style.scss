@@ -1,0 +1,43 @@
+@import "{{ site.theme }}";
+
+.main-content {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #155799;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  code {
+    background-color: #f3f6fa;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.3rem;
+  }
+}
+
+.page-header {
+  background-color: #159957;
+  background-image: linear-gradient(120deg, #155799, #159957);
+}
+
+.project-tagline {
+  opacity: 0.8;
+}
+
+.btn {
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+
+  &:hover {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+}

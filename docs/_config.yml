@@ -1,0 +1,6 @@
+theme: jekyll-theme-cayman
+title: Predicting Neighbourhood Change with Machine Learning
+description: A machine learning approach to understanding and predicting gentrification in urban neighborhoods
+show_downloads: true
+github:
+  repository_url: https://github.com/KristoferKwan/urb-studies-predicting-gentrification
