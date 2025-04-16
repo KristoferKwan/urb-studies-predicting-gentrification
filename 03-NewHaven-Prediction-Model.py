@@ -446,7 +446,7 @@ def map_gentrification_risk(model, model_data, X_scaled):
             return {
                 'fillColor': get_gradient_color(risk_level, percentile),
                 'color': '#000000',
-                'weight': 0.5,
+                'weight': 0.2,  # Changed from 0.5 to 0.2 to make lines thinner
                 'fillOpacity': 0.8
             }
         
@@ -530,11 +530,11 @@ def map_gentrification_risk(model, model_data, X_scaled):
         m.get_root().html.add_child(folium.Element(legend_html))
         
         # Add hover functionality with a GeoJsonTooltip
-        highlight_function = lambda x: {'weight': 3, 'color': '#000000', 'fillOpacity': 0.5, 'dashArray': '5, 5'}
+        highlight_function = lambda x: {'weight': 1.5, 'color': '#000000', 'fillOpacity': 0.5, 'dashArray': '5, 5'}  # Changed from 3 to 1.5
         
         NIL = folium.features.GeoJson(
             tracts_with_risk,
-            style_function=lambda x: {'fillOpacity': 0.0, 'weight': 2, 'color': 'black'},  # Transparent fill on hover
+            style_function=lambda x: {'fillOpacity': 0.0, 'weight': 1, 'color': 'black'},  # Changed from 2 to 1
             control=False,
             highlight_function=highlight_function,
             tooltip=folium.features.GeoJsonTooltip(
